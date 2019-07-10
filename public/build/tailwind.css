@@ -627,6 +627,33 @@ video {
   }
 }
 
+.btn {
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.btn-indigo {
+  background-color: #667eea;
+  color: #fff;
+}
+
+.btn-grey {
+  background-color: #cbd5e0;
+  color: #2d3748;
+}
+
+.btn:hover {
+  background-color: #7f9cf5;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
